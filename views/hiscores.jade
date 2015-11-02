@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+  head
+    title= title    
+    link(rel="stylesheet", href="css/bootstrap.css", type="text/css")
+    link(rel="stylesheet", href="css/hiscores.css", type="text/css")
+  body(style="background-image:url(/images/background.jpg)")
+
+    div(class="container")
+      h1(id="header") High Scores
+      table(id="hiscore_table")
+        tr()
+          th(class="table-header") Score
+          th(class="table-header") Name
+          th(class="table-header") Date
+      div(style="padding-top:30px;")
+        a(class="btn btn-default", href="/play") Play!
+      
+    script(src="js/jquery.js", type="text/javascript")
+    script(src="js/bootstrap.js", type="text/javascript")
+    script(src="js/hiscores.js", type="text/javascript")
+  

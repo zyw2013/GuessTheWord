@@ -1,0 +1,66 @@
+.game-text {
+	color:white;
+}
+
+#word-description {
+	background-color:green;
+	color:white;
+	font-size: 14px; 
+	opacity: 0.8; 
+}
+
+#score {
+	background-color:green;
+	color:white;
+	font-size: 14px; 
+	opacity: 0.8; 
+}
+
+#power {
+	background-color:green;
+	color:white;
+	font-size: 14px; 
+	opacity: 0.8; 
+}
+
+.word-area {
+	background-color:gray;
+	font-size: 26px;
+	text-align:center;
+	opacity: 0.8; 
+	transition: background-color 0.8s ease-out 0s;
+}
+
+.word-area table {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.word-area table,tr,td {
+	border:1px solid yellow;
+}
+
+.word-area.correctguess {
+	background-color:GoldenRod;	
+}
+
+.word-area.powerdecreased {
+	background-color:Red;	
+}
+
+.col {
+  padding-right:7px;
+  padding-left:7px;
+}
+
+.cell-selected {
+	background-color: yellow;
+}
+
+.wrong-letter {
+	background-color: red;
+}
+
+.modal, .modal.fade.in {
+    top: 30%;
+}

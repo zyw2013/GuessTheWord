@@ -1,0 +1,14 @@
+{
+	"name": "GuessTheWord",
+	"version": "0.0.1",
+	"description": "GuessTheWord package.json file",
+	"dependencies": {
+		"express": ">=3.4.7 <4",
+		"jade": ">=1.1.4",
+		"nano" : "*"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"repository": {}
+}
